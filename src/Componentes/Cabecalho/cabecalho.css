@@ -1,0 +1,39 @@
+/* Estilo para o container do form */
+.form-busca {
+  background-color: #f8f9fa;   /* cor de fundo clara */
+  padding: 20px;
+  border-radius: 12px;         /* cantos arredondados */
+  box-shadow: 0px 4px 12px rgba(207, 23, 23, 0.1);
+  font-family: "Poppins", sans-serif; /* fonte personalizada */
+}
+
+/* Estilo para o input */
+.form-busca .form-control {
+  font-size: 1.1rem;          /* aumenta o tamanho da fonte */
+  padding: 12px 16px;         /* aumenta altura do campo */
+  border: 2px solid #198754;  /* verde Bootstrap */
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.form-busca .form-control:focus {
+  border-color: #17cc5d;      /* muda cor da borda ao focar */
+  box-shadow: 0 0 8px rgba(13,110,253,0.4);
+}
+
+/* Estilo para o botão */
+.form-busca .btn {
+  font-size: 1rem;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
+  background-color: #066129;  /* azul Bootstrap */
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.form-busca .btn:hover {
+  background-color: #099e42; /* azul mais escuro */
+  transform: scale(1.05);    /* leve efeito de aumento */
+}

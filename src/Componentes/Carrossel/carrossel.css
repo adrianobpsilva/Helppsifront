@@ -1,0 +1,32 @@
+.carrosselcontainer my-5 {
+  max-width: 900px; /* controla o tamanho do carrossel */
+  margin: justify; /* centraliza dentro do container */
+  border-radius: 12px;
+  overflow: hidden; /* arredondamento funciona sem vazar */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+
+.carrossel-wrapper {
+  max-width: 900px; /* controla o tamanho do carrossel */
+  margin: 0 auto; /* centraliza dentro do container */
+  border-radius: 12px;
+  overflow: hidden; /* arredondamento funciona sem vazar */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.carousel-inner img {
+  height: 450px;        /* altura fixa */
+  object-fit: cover;    /* corta imagem proporcionalmente */
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #007bff; /* cor dos indicadores */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* ícones mais visíveis */
+  border-radius: 50%;
+  padding: 10px;
+}

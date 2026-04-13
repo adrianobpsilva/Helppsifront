@@ -1,0 +1,85 @@
+.perfil-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.perfil-container h2 {
+  text-align: center;
+  color: #2f4f4f;
+  margin-bottom: 20px;
+}
+
+.perfil-container p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.perfil-container input[type="text"],
+.perfil-container input[type="email"],
+.perfil-container input[type="tel"],
+.perfil-container input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.perfil-container input:focus {
+  border-color: #006400;
+  outline: none;
+}
+
+.perfil-container h3 {
+  margin-top: 20px;
+  color: #2f4f4f;
+}
+
+.perfil-container label {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.perfil-container input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.perfil-container button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.perfil-container button:first-of-type {
+  background: #006400;
+  color: #fff;
+}
+
+.perfil-container button:first-of-type:hover {
+  background: #004d00;
+}
+
+.perfil-container button:last-of-type {
+  background: #006400;
+  color: #fff;
+}
+
+.perfil-container button:last-of-type:hover {
+  background: #006400;
+}
